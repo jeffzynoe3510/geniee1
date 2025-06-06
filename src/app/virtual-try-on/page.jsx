@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 
-import { useUpload } from "../utilities/runtime-helpers";
+import { useHandleStreamResponse } from "../../utilities/runtime-helpers";
 
 function MainComponent() {
   const { data: user } = useUser();
